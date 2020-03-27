@@ -1,3 +1,65 @@
 .App {
   text-align: center;
 }
+
+  .italicFont {
+    font-style: italic;
+  }
+
+  .channelHeader {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+  }
+
+  .channelHeadline {
+    font-style: normal;
+    font-size: 20px;
+    color: darkgray;
+  }
+
+  .channelRow {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+  }
+
+  .channelRowLast {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: start
+  }
+
+    .channelBox {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      height: auto;
+    }
+
+      .channelTitle, .descriptionTxt {
+        margin-bottom: 0;
+        text-align: left;
+        font-size: 14px;
+      }
+
+      .channelImg {
+        width: 100%;
+        height: auto;
+      }
+
+      .descriptionTxt {
+        font-weight: bold;
+      }
+      .authorTxt {
+        margin-top: 0;
+        text-align: left;
+        font-size: 10px;
+        font-style: italic;
+      }
