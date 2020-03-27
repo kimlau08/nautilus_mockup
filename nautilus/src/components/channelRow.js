@@ -31,7 +31,7 @@ const boldRedFont = {
     fontWeight: 'bold' 
 }
 const boldGreenFont = {
-    color: '#79A590',
+    color: '#279E65',
     fontWeight: 'bold' 
 }
 const boldFont = {
@@ -41,7 +41,7 @@ const regularFont = {
     fontWeight: 'regular' 
 }
 const regularGreenFont = {
-    color: 'green',
+    color: '#79A590',
     fontWeight: 'regular' 
 }
 const boldItalicFont = {
