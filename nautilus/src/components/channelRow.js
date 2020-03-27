@@ -54,7 +54,7 @@ const hFont = {
 }
 
 
-//Render row 1 channel
+//Render row 1 channels
 export function ChannelRow1() {
     
     return (
@@ -68,7 +68,7 @@ export function ChannelRow1() {
     )
 }
 
-//Render row 2 channel
+//Render row 2 channels
 export function ChannelRow2() {
     
     return (
@@ -82,7 +82,7 @@ export function ChannelRow2() {
     )
 }
 
-//Render row 3 channel
+//Render row 3 channels
 export function ChannelRow3() {
     
     return (
