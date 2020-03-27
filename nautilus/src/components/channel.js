@@ -38,7 +38,7 @@ export default function ChannelComponent(props) {
     if (!props.uniformTitleStyle) {
         return (
             <div className="channelBox">
-                <p className="channelTitle" style={props.titleStyle}><span style={props.firstWordStyle}>{firstWord}</span>{tailStr}</p>
+                <p className="channelTitle"><span style={props.firstWordStyle}>{firstWord}</span><span style={props.titleStyle}>{tailStr}</span></p>
                 <img className="channelImg" src={props.image} />
                 <p className="descriptionTxt">{props.description}</p>
                 <p className="authorTxt">{props.author}</p>

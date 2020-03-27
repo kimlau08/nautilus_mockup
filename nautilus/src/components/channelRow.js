@@ -94,7 +94,7 @@ export function ChannelRow4() {
     
     return (
         <div className="channelRow">
-            <ChannelComponent title="MP Nero" titleStyle={regularGreenFont} uniformTitleStyle={false} firstWordStyle={boldGreenFont} image={neroImg} description="Understanding the Brain with the Help of Artificial Intelligence" author="by Max Plank Institute of Neurobiology" />
+            <ChannelComponent title="MP Nero" titleStyle={boldGreenFont} uniformTitleStyle={false} firstWordStyle={regularGreenFont} image={neroImg} description="Understanding the Brain with the Help of Artificial Intelligence" author="by Max Plank Institute of Neurobiology" />
         </div>
     )
 }
