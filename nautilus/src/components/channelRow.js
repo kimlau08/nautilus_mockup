@@ -18,7 +18,7 @@ import neroImg from '../assets/maxplanck.jpeg';
 
 
 const boldBlueFont = {
-    color: 'blue',
+    color: '#5FAFEC',
     fontWeight: 'bold' 
 }
 const boldRedFont = {
