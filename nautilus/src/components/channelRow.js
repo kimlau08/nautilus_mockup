@@ -2,21 +2,26 @@ import React from 'react';
 import ChannelComponent from './channel';
 import '../App.css';
 
+//Import row1 channel images
 import bioImg from '../assets/bio_and_beyond.jpeg';
 import engImg from '../assets/wise_sci_and_engineering.png';
 import quantaImg from '../assets/abstractions.jpeg';
 
+//Import row2 channel images
 import earthImg from '../assets/earth.jpeg';
 import burgerImg from '../assets/tlas.jpeg';
 import cosmosImg from '../assets/cosmos.jpeg';
 
+//Import row3 channel images
 import poetryImg from '../assets/poetry.jpeg';
 import agingImg from '../assets/aging.png';
 import allianceImg from '../assets/alliance.png';
 
+//Import row4 channel images
 import neroImg from '../assets/maxplanck.jpeg';
 
 
+//Font style to be used for inline styling in channel titles
 const boldBlueFont = {
     color: '#5FAFEC',
     fontWeight: 'bold' 
@@ -43,12 +48,13 @@ const boldItalicFont = {
     fontStyle: 'italic',
     fontWeight: 'bold' 
 }
-
 const hFont = {
     fontFamily: 'Haettenschweiler',
     fontSize: '16px'
 }
 
+
+//Render row 1 channel
 export function ChannelRow1() {
     
     return (
@@ -62,7 +68,7 @@ export function ChannelRow1() {
     )
 }
 
-
+//Render row 2 channel
 export function ChannelRow2() {
     
     return (
@@ -76,6 +82,7 @@ export function ChannelRow2() {
     )
 }
 
+//Render row 3 channel
 export function ChannelRow3() {
     
     return (
@@ -89,7 +96,7 @@ export function ChannelRow3() {
     )
 }
 
-
+//Render row 4 channel
 export function ChannelRow4() {
     
     return (
