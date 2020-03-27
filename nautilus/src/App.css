@@ -23,7 +23,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 85%;
     min-width: 800px;
     height: auto;
     justify-content: space-between;
@@ -39,7 +39,7 @@
       .channelTitle, .descriptionTxt {
         margin-bottom: 0;
         text-align: left;
-        font-size: 14px;
+        font-size: 12px;
       }
 
       .channelImg {
@@ -53,6 +53,6 @@
       .authorTxt {
         margin-top: 0;
         text-align: left;
-        font-size: 12px;
+        font-size: 10px;
         font-style: italic;
       }
