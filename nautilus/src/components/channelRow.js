@@ -27,7 +27,7 @@ const boldBlueFont = {
     fontWeight: 'bold' 
 }
 const boldRedFont = {
-    color: 'red',
+    color: '#F95757',
     fontWeight: 'bold' 
 }
 const boldGreenFont = {
@@ -50,7 +50,7 @@ const boldItalicFont = {
 }
 const hFont = {
     fontFamily: 'Haettenschweiler',
-    fontSize: '16px'
+    fontSize: '16px',
 }
 
 
