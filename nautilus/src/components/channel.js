@@ -17,7 +17,7 @@ export default function ChannelComponent(props) {
             //extract rest of string, putting '+' back to the front
             let tailArray=words.slice(1, words.length);
             tailArray.unshift('+');
-            tailStr=tailArray.join(''); 
+            tailStr=tailArray.join(' '); 
         } else {
             //The first word may be followed by a space
             words=props.title.split(' ');
@@ -29,7 +29,7 @@ export default function ChannelComponent(props) {
                 //extract rest of string, putting ' ' back to the front
                 let tailArray=words.slice(1, words.length);
                 tailArray.unshift(' ');
-                tailStr=tailArray.join(''); 
+                tailStr=tailArray.join(' '); 
             }
         }
     }
