@@ -23,17 +23,9 @@
     display: flex;
     flex-direction: row;
     width: 80%;
+    min-width: 800px;
     height: auto;
     justify-content: space-between;
-  }
-
-  .channelRowLast {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-    justify-content: start
   }
 
     .channelBox {
