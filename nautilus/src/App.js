@@ -1,5 +1,4 @@
 import React from 'react';
-import ChannelComponent from './components/channel';
 import {ChannelRow1} from './components/channelRow';
 import {ChannelRow2} from './components/channelRow';
 import {ChannelRow3} from './components/channelRow';
