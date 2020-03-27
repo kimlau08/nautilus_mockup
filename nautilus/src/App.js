@@ -12,7 +12,7 @@ function App() {
       <h1 className="channelHeader">Channels</h1>
       <h2 className="channelHeadline">TUNE IN TO <span className="italicFont">NAUTILUS'</span> DEEP DIVE PORTALS</h2>
 
-      //Channel row functional components
+      {/*Channel row functional components*/}
       <ChannelRow1 />
       <ChannelRow2 />
       <ChannelRow3 />
