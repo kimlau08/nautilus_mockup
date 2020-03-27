@@ -4,11 +4,11 @@ import '../App.css';
 export default function ChannelComponent(props) {
 
     //Special formatting of channel titles requires different fonts for first word and rest of string (tail). This code make a copy of the first word and the tail string for rendering later.
-    let firstWord="";
-    let tailStr="";
+    let firstWord="";   //a copy of the first word of title
+    let tailStr="";     //a copy of the rest of title
     let words=[];
     if (!props.uniformTitleStyle) {  //The first word is styled differently. Need to extract firstWord and tail
-    
+
         //The first word may be followed by a '+'
         words=props.title.split('+');
         if (words.length > 1) {
