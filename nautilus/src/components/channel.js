@@ -3,6 +3,7 @@ import '../App.css';
 
 export default function ChannelComponent(props) {
 
+    //Special formatting of channel titles requires different fonts for first word and rest of string (tail). This code make a copy of the first word and the tail string for rendering later.
     let firstWord="";
     let tailStr="";
     let words=[];
@@ -35,7 +36,9 @@ export default function ChannelComponent(props) {
     }
 
 
+    //rendering of title, img, description, and author
     if (!props.uniformTitleStyle) {
+        //render first word and tail string of the title using different styles
         return (
             <div className="channelBox">
                 <p className="channelTitle"><span style={props.firstWordStyle}>{firstWord}</span><span style={props.titleStyle}>{tailStr}</span></p>
@@ -45,6 +48,7 @@ export default function ChannelComponent(props) {
             </div>
         )       
     } else {
+        //render the title with only one font style
         return (
             <div className="channelBox">
                 <p className="channelTitle" style={props.titleStyle}>{props.title}</p>
